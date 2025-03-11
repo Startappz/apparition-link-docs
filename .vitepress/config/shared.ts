@@ -59,12 +59,12 @@ export const shared = defineConfig({
     },
   },
 
-  sitemap: {
-    hostname: "https://vitepress.dev",
-    transformItems(items) {
-      return items.filter((item) => !item.url.includes("migration"));
-    },
-  },
+  // sitemap: {
+  //   hostname: "https://vitepress.dev",
+  //   transformItems(items) {
+  //     return items.filter((item) => !item.url.includes("migration"));
+  //   },
+  // },
 
   /* prettier-ignore */
   head: [
@@ -73,10 +73,10 @@ export const shared = defineConfig({
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
-    ['meta', { property: 'og:title', content: 'VitePress | Vite & Vue Powered Static Site Generator' }],
-    ['meta', { property: 'og:site_name', content: 'VitePress' }],
-    ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://vitepress.dev/' }],
+    ['meta', { property: 'og:title', content: 'Apparition | Smart Deep Linking &amp; Mobile Attribution' }],
+    ['meta', { property: 'og:site_name', content: 'Apparition' }],
+    ['meta', { property: 'og:image', content: '' }],
+    ['meta', { property: 'og:url', content: 'https://apparition.link/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
   ],
 
