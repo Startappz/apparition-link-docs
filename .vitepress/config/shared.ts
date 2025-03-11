@@ -7,7 +7,7 @@ import {
 import { search as faSearch } from "./fa";
 
 export const shared = defineConfig({
-  title: "VitePress",
+  title: "Apparation",
 
   rewrites: {
     "en/:rest*": ":rest*",
@@ -81,7 +81,7 @@ export const shared = defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: "/vitepress-logo-mini.svg", width: 24, height: 24 },
+    //logo: { src: "/vitepress-logo-mini.svg", width: 24, height: 24 },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
@@ -99,16 +99,16 @@ export const shared = defineConfig({
       },
     },
 
-    carbonAds: { code: "CEBDT27Y", placement: "vuejsorg" },
+    //carbonAds: { code: "CEBDT27Y", placement: "vuejsorg" },
   },
   vite: {
     plugins: [
       groupIconVitePlugin({
         customIcon: {
-          vitepress: localIconLoader(
-            import.meta.url,
-            "../../public/vitepress-logo-mini.svg",
-          ),
+          // vitepress: localIconLoader(
+          //   import.meta.url,
+          //   "../../public/vitepress-logo-mini.svg",
+          // ),
           firebase: "logos:firebase",
         },
       }),
