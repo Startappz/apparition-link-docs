@@ -16,7 +16,7 @@ hero:
       link: /guides/native-sdks-overview
     - theme: alt
       text: References
-      link: /reference/
+      link: /reference/apis-overview
     # - theme: alt
     #   text: GitHub
     #   link: https://github.com/vuejs/vitepress
