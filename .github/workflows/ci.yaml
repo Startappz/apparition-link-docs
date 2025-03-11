@@ -1,0 +1,34 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  test_docs_build:
+    name: Build docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: tj-actions/changed-files@v45
+        id: changed-files
+        with:
+          files: |
+            docs/**
+            package*.json
+            yarn.lock
+      - uses: actions/setup-node@v4
+        if: steps.changed-files.outputs.any_changed == 'true'
+        with:
+          node-version: 22
+          cache: yarn
+      - run: yarn install
+        if: steps.changed-files.outputs.any_changed == 'true'
+      - run: yarn build
+        if: steps.changed-files.outputs.any_changed == 'true'

@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Get Help
+    url: https://github.com/startappz/apparition-link-docs/discussions/new?category=help
+    about: If you can't get something to work the way you expect, open a question in our discussion forums.
+  - name: Feature Request
+    url: https://github.com/startappz/apparition-link-docs/discussions/new?category=ideas
+    about: Suggest any ideas you have using our discussion forums.
+  - name: Bug Report
+    url: https://github.com/startappz/apparition-link-docs/issues/new?body=%3C%21--+Please+provide+all+of+the+information+requested+below.+We%27re+a+small+team+and+without+detailed+information+it%27s+not+possible+for+us+to+help+and+your+bug+report+will+be+closed.+--%3E%0A%0ADescribe+your+issue+with+a+%2A%2Aclear+title+and+description%2A%2A.+Make+sure+to+include+as+much+relevant+information+as+possible%2C+including+a+code+sample+or+failing+test+that+demonstrates+the+expected+behavior%2C+as+well+as+your+system+configuration.+Your+goal+should+be+to+make+it+easy+for+yourself+-+and+others+-+to+reproduce+the+bug+and+figure+out+a+fix.%0A%0A%23%23%23+Expected+behavior%0A%0AWhat+do+you+think+should+happen%3F%0A%0A%23%23%23+Actual+behavior%0A%0AWhat+actually+happens%3F%0A%0A%23%23%23+How+to+reproduce%0A%0AHaving+a+way+to+reproduce+your+issue+will+help+people+confirm%2C+investigate%2C+and+ultimately+fix+your+issue.
+    about: If you've already asked for help with a problem and confirmed something is broken with Apparation itself, create a bug report.
+  - name: Documentation Issue
+    url: https://github.com/startappz/apparition-link-docs/pulls
+    about: For documentation improvements, feel free to create a pull request.
+  - name: Localization Issue
+    url: https://github.com/startappz/apparition-link-docs/pulls
+    about: For any localization updates, create a pull request as we rely entirely on the community for these.
