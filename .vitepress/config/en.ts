@@ -5,7 +5,7 @@ const require = createRequire(import.meta.url);
 
 export const en = defineConfig({
   lang: "en-US",
-  description: "Vite & Vue powered static site generator.",
+  description: "",
 
   themeConfig: {
     nav: nav(),
@@ -36,7 +36,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: "Reference",
-      link: "/reference/api-overview",
+      link: "/reference/apis-overview",
       activeMatch: "/reference/",
     },
     {

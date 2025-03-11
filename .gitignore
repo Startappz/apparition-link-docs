@@ -14,3 +14,7 @@ node_modules
 pnpm-global
 TODOs.md
 *.timestamp-*.mjs
+
+# dotenv environment variables file
+.env.locale
+.env.test
