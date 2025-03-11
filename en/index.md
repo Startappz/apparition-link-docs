@@ -1,15 +1,15 @@
 ---
 layout: home
 
-title: Apparation Docs
+title: Apparition Docs
 titleTemplate:
 
 footer: false
 
 hero:
-  name: Apparation Docs
+  name: Apparition Docs
   text:
-  tagline: Documentation for Apparation a cross-platform linking and attribution solutions.
+  tagline: Documentation for Apparition a cross-platform linking and attribution solutions.
   actions:
     - theme: brand
       text: Guids
