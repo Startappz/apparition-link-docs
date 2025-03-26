@@ -21,8 +21,8 @@ export const en = defineConfig({
     },
 
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      message: "All rights reserved",
+      copyright: "© 2025 StartAppz.",
     },
   },
 });
@@ -62,6 +62,16 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Apparation SDK Overview", link: "native-sdks-overview" },
+        {
+          text: "KMP SDK",
+          collapsed: true,
+          items: [
+            {
+              text: "KMP Basic Integration",
+              link: "kmp-basic-integration",
+            },
+          ],
+        },
         {
           text: "Android SDK",
           collapsed: true,
@@ -104,6 +114,18 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
               text: "Web Advanced Features",
               link: "web-advanced-features",
             },
+          ],
+        },
+
+        {
+          text: "Dashboard Configuration",
+          collapsed: true,
+          items: [
+            {
+              text: "Configure link behaviour",
+              link: "dashboard-config-link-behaviour",
+            },
+          
           ],
         },
 
